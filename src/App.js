@@ -5,7 +5,6 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import CreateUser from "./components/CreateUser";
 import AllOurCustomers from "./components/AllOurCustomers";
 import Transfer from "./components/Transfer";
 import Transactions from "./components/Transactions";
@@ -17,7 +16,6 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route exact path="/create-user" element= {<CreateUser />}/>
         <Route exact path="/all-our-customers" element = {<AllOurCustomers />}/>
         <Route exact path="/transfer" element= {<Transfer />}/>
         <Route exact path="/transactions-history" element={<Transactions />}/>
