@@ -23,16 +23,6 @@ function Home() {
         </a>
       </div>
       <div className="services" id="services">
-        <Link to="/create-user">
-          <div className="item">
-            <div className="image">
-              <i className="fas fa-users"></i>
-            </div>
-            <div className="title">
-              <h3>Create User</h3>
-            </div>
-          </div>
-        </Link>
         <Link to="/transfer">
           <div className="item">
             <div className="image">
